@@ -12,7 +12,7 @@ export function* incrementAsync() {
 }
 
 export function* watchIncrementAsync() {
-    yield takeEvery('INCREMENT_ASYNC', incrementAsync);
+    yield takeEvery('INCEREMENT_ASYNC', incrementAsync);
 }
 
 export default function* rootSaga() {
